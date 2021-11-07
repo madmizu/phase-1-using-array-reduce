@@ -1,1 +1,1 @@
-const totalBatteries = [4, 5, 3, 4, 4, 6, 5].reduce((accumulator, currentValue ) => accumulator + currentValue, 0)
+const totalBatteries = [4, 5, 3, 4, 4, 6, 5].reduce((init, currentValue ) => init + currentValue, 0)
